@@ -1,0 +1,94 @@
+/* File: styles.css */
+
+/* Styling untuk card-body agar konten terpusat secara vertikal dan horizontal */
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;    
+    height: 60vh;      
+    width: 100vw; 
+    text-align: center;    
+    padding: 0 20px; 
+    max-width: 1000px;       
+    background-color: rgb(57, 52, 52);
+  }
+  
+  /* Logo Payroll */
+  .logo-payroll {
+    width: 250px;            
+    height: auto;        
+    margin-bottom: 30px;    
+  }
+  
+  /* Styling untuk greeting dan title */
+  .greeting {
+    font-size: 45px;         
+    font-weight: bold;     
+    color: #f9f6f6;           
+  }
+  
+  .title {
+    font-size: 30px;         
+    font-weight: normal;    
+    color: #f7f6f6;           
+    margin-top: 10px;       
+  }
+  
+  /* Mengubah warna latar belakang pada card-header */
+  .card-header {
+    background: linear-gradient(90deg, #003366, #0066cc); 
+    border-radius: 10px 10px 0 0; 
+  }
+  
+  /* Mengubah warna latar belakang pada bg-gradient-primary */
+  .bg-gradient-primary {
+    background: linear-gradient(90deg, #003366, #0066cc); 
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  /* Mengubah warna teks pada h6 */
+  .card-header h6 {
+    color: #ffffff; 
+    font-size: 18px; 
+    font-weight: bold; 
+  }
+
+  /* Mengubah margin dan padding untuk container agar tidak terpusat di tengah */
+.container-fluid.py-4 {
+  padding-top: 10px; 
+}
+
+/* Mengubah header tabel agar tetap putih */
+.table thead th {
+  background-color: #4e73df; 
+  color: white; 
+}
+/* Mengubah warna teks pada baris tabel menjadi putih */
+.table tbody td {
+  color: white; 
+}
+
+/* Efek hover pada baris tabel */
+.table-hover tbody tr:hover {
+  background-color: #f1f1f1;
+  color: black; 
+}
+
+/* Menambahkan padding pada tabel */
+.table th, .table td {
+  padding: 12px 15px;
+}
+
+/* Mengubah warna tombol menjadi lebih kontras dengan teks putih */
+.btn-link {
+  color: white !important; 
+}
+
+/* Mengubah posisi tabel ke atas dan memperkecil jarak container */
+.table-responsive {
+  margin-top: 0; 
+}
+
